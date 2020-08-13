@@ -7,8 +7,6 @@ import reducer from './reducers';
 
 import initialState from './initialState';
 
-const store = createStore(reducer, initialState);
-
 ReactDOM.render(
   <Provider store={store}>
     <App />
