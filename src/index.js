@@ -10,8 +10,8 @@ import initialState from './initialState';
 const store = createStore(reducer, initialState);
 
 ReactDOM.render(
-  <Provider store={store}>
+  <Provider store={store}
     <App />
-  </Provider>,
+  </Provider >,
   document.getElementById('app'),
 );
